@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+pre > h1,
+pre > h2,
+pre > h3,
+pre > h4,
+pre > h5,
+pre > h6,
+pre > p,
+pre > span,
+pre > a {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a,
+span,
+p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+input {
+  background-color: transparent;
+}

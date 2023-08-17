@@ -109,6 +109,27 @@ main {
   gap: 10px;
 }
 
+#sidebar .component-list .component-group .component-nav {
+  padding-left: 30px;
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+#sidebar .component-list .component-group .component-nav a:hover {
+  color: var(--yellow);
+}
+
+#sidebar
+  .component-list
+  .component-group:has(.component-item.active)
+  .component-nav {
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 #sidebar .component-list .component-item {
   padding: 5px 15px;
 
@@ -124,6 +145,9 @@ main {
   background-color: var(--yellow);
 
   font-weight: 700;
+
+  width: 100%;
+  display: block;
 }
 
 #content {
@@ -198,6 +222,16 @@ pre {
 }
 
 /* END CONTENT */
+
+/* START ANCHOR STYLE */
+article {
+  position: relative;
+}
+.anchor {
+  position: absolute;
+  top: -110px;
+}
+/* END ANCHOR STYLE */
 
 /* BLOCKCODE CUSTOMIZE */
 
